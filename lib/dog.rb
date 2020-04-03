@@ -21,7 +21,12 @@ class Dog
       end
     end
 
-    def Dog.new 
+    def save(Dog.new)
+
+      Dog.new << @@all
+      Dog.clear_all
+      pluto.save 
+    end
 
 
   def self.clear_all
