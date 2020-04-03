@@ -23,7 +23,7 @@ class Dog
 
     def self.save
 
-      Dog.new << @@all
+      self << @@all
 
 
     end
