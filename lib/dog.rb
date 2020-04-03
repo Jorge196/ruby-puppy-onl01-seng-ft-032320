@@ -12,7 +12,7 @@ class Dog
 
   def save
     self.new = "Pluto"
-    end
+    
   end
 
   def self.all
