@@ -11,8 +11,8 @@ class Dog
   end
 
   def save
-    self.new = "Pluto"
     
+
   end
 
   def self.all
