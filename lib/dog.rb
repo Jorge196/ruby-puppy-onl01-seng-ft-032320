@@ -10,6 +10,9 @@ class Dog
     @@all << self
   end
 
+  def save
+    Dog.new = "Pluto"
+    if expect_any_instance_of
 
   def self.all
     @@all.each do |dog|
