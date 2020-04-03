@@ -5,15 +5,19 @@ class Dog
 
   @@all = []
 
-  def initialize(name)
+  def initialize(name, save="Pluto")
     @name = name
     @@all << self
   end
 
-  def save
-    
-
+  def save=(save)
+    @save = save
   end
+
+  def save
+    @save
+  end
+end
 
   def self.all
     @@all.each do |dog|
