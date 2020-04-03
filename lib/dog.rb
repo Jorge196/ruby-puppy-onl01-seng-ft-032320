@@ -24,8 +24,8 @@ class Dog
     def save(Dog.new)
 
       Dog.new << @@all
-      Dog.clear_all
-      
+    
+
     end
 
 
