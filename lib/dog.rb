@@ -25,7 +25,7 @@ class Dog
 
       Dog.new << @@all
       Dog.clear_all
-      pluto.save 
+      
     end
 
 
