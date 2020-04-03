@@ -21,10 +21,10 @@ class Dog
       end
     end
 
-    def save(Dog.new)
+    def self.save
 
       Dog.new << @@all
-    
+
 
     end
 
