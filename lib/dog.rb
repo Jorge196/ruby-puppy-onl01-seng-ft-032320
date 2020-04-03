@@ -19,5 +19,7 @@ class Dog
   def self.clear_all
     @@all.clear
   end
+  3.methods.sort
 
-end 
+
+end
