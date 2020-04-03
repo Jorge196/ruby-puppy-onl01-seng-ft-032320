@@ -12,7 +12,6 @@ class Dog
 
   def save
     self.new = "Pluto"
-    if expect_any_instance_of Dog.new
     end
   end
 
